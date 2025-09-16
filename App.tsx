@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   function testFn() {
     // extra whitespaces
-    x = 1; // x is not defined, therefore it won't be able to return its value in next line
+    let x = 1; // x is not defined, therefore it won't be able to return its value in next line
     return x;
     // x = 3; // this will never execute
   }
