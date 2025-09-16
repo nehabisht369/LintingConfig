@@ -10,7 +10,7 @@ export default function App() {
     // x = 3; // this will never execute
   }
 
-  const obj = { foo: "1", foo: "2" }; // duplicate key in object
+  const obj = { foo: "1", bar: "2" }; // remove duplicate key in object
   // can be accessed, but only the last value will be retained
 
   return (
